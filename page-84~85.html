@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function pershendet() {
+                alert("tungjatjeta ju")
+            }
+        </script>
+    </head>
+    <body>
+        <input type="button"onclick="pershendet()" value="tungjatjeta"/>
+    </body>
+</html>
+
+
+
+
+<html>
+<body>
+    <script type="text/javascript">
+        var myImage = document.querySelector('img');
+        myImage.onclick = function() {
+            var mySrc = myImage.getAttribute('src');
+            if(mySrc === 'images/firefox.png') {
+                myImage.setAttribute('src','images/fire.png');
+            } else{
+                myImage.setAttribute ('src','images/fire.png');
+                }
+        }
+    </script>
+</body>
+</html>
